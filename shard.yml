@@ -1,0 +1,13 @@
+name: pascal
+version: 0.1.0
+
+authors:
+  - Frank Hamand <frankhamand@gmail.com>
+
+targets:
+  pascal:
+    main: src/pascal.cr
+
+crystal: 0.22.0
+
+license: MIT
