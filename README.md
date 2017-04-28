@@ -1,4 +1,5 @@
 # pascal
+[![Build Status](https://travis-ci.org/frankh/crystal-pascal.svg?branch=master)](https://travis-ci.org/frankh/crystal-pascal)
 
 Tiny project to print out pascal's triangle
 
