@@ -1,1 +1,7 @@
 language: crystal
+crystal:
+  - latest
+  - nightly
+script:
+  - crystal build
+  - ./pascal 12
