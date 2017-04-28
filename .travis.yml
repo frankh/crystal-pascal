@@ -1,6 +1,6 @@
 language: crystal
 
 script:
-  - crystal spec
+  - crystal spec -v
   - crystal build src/pascal.cr
   - ./pascal 12
