@@ -2,7 +2,7 @@ module Pascal
   extend self
 
   def next_row(row)
-    ([0] + row).zip(row + [0]).map { |a, b| a + b }
+    ([0] + row).zip(row + [0]).map(&.sum)
   end
 
   def pascal(n)
